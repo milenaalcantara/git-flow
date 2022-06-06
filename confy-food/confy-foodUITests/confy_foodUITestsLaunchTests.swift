@@ -7,7 +7,7 @@
 
 import XCTest
 
-class confy_foodUITestsLaunchTests: XCTestCase {
+class ConfyFoodUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
