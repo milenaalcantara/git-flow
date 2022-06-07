@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85CD6A6E284F900E00929796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CD6A6D284F900E00929796 /* Main.storyboard */; };
 		F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5A284A47BB00A8026B /* AppDelegate.swift */; };
 		F389BC5D284A47BB00A8026B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5C284A47BB00A8026B /* SceneDelegate.swift */; };
 		F389BC5F284A47BB00A8026B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5E284A47BB00A8026B /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85CD6A6D284F900E00929796 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F389BC57284A47BB00A8026B /* confy-food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "confy-food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389BC5A284A47BB00A8026B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F389BC5C284A47BB00A8026B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F389BC63284A47BB00A8026B /* Assets.xcassets */,
 				F389BC65284A47BB00A8026B /* LaunchScreen.storyboard */,
 				F389BC68284A47BB00A8026B /* Info.plist */,
+				85CD6A6D284F900E00929796 /* Main.storyboard */,
 			);
 			path = "confy-food";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CD6A6E284F900E00929796 /* Main.storyboard in Resources */,
 				F389BC67284A47BB00A8026B /* LaunchScreen.storyboard in Resources */,
 				F389BC64284A47BB00A8026B /* Assets.xcassets in Resources */,
 			);
