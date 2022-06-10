@@ -78,6 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F36474BE28536DBE00E8AD99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F36474BF28536DC600E8AD99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F389BC65284A47BB00A8026B /* LaunchScreen.storyboard */,
+				85CD6A6D284F900E00929796 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F36474C028536DE800E8AD99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F389BC5E284A47BB00A8026B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F389BC4E284A47BB00A8026B = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +126,13 @@
 		F389BC59284A47BB00A8026B /* confy-food */ = {
 			isa = PBXGroup;
 			children = (
+				F36474C028536DE800E8AD99 /* Controllers */,
+				F36474BF28536DC600E8AD99 /* Views */,
+				F36474BE28536DBE00E8AD99 /* Models */,
 				F389BC5A284A47BB00A8026B /* AppDelegate.swift */,
 				F389BC5C284A47BB00A8026B /* SceneDelegate.swift */,
-				F389BC5E284A47BB00A8026B /* ViewController.swift */,
 				F389BC63284A47BB00A8026B /* Assets.xcassets */,
-				F389BC65284A47BB00A8026B /* LaunchScreen.storyboard */,
 				F389BC68284A47BB00A8026B /* Info.plist */,
-				85CD6A6D284F900E00929796 /* Main.storyboard */,
 			);
 			path = "confy-food";
 			sourceTree = "<group>";
