@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "358A8C8F-5567-4686-B0FB-27882F624725"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47FE9307-178C-4944-AE66-3DD07E5FA771"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "confy-food/Controllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "47FE9307-178C-4944-AE66-3DD07E5FA771 - 26c191c67116d19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "confy_food.RecentRecipeCell.__allocating_init(frame: __C.CGRect) -&gt; confy_food.RecentRecipeCell"
+                  moduleName = "confy-food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joanwilsonoliveira/Desktop/Challenges/NowForReal/git-flow/confy-food/confy-food/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "47FE9307-178C-4944-AE66-3DD07E5FA771 - 623322db052f17c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "confy_food.RecentRecipeCell.init(frame: __C.CGRect) -&gt; confy_food.RecentRecipeCell"
+                  moduleName = "confy-food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joanwilsonoliveira/Desktop/Challenges/NowForReal/git-flow/confy-food/confy-food/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "47FE9307-178C-4944-AE66-3DD07E5FA771 - 103b7f8ecbe00979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "confy_food.RecentRecipeCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;confy_food.RecentRecipeCell&gt;"
+                  moduleName = "confy-food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joanwilsonoliveira/Desktop/Challenges/NowForReal/git-flow/confy-food/confy-food/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "47FE9307-178C-4944-AE66-3DD07E5FA771 - 1a85cf59e7074f7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "confy_food.RecentRecipeCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;confy_food.RecentRecipeCell&gt;"
+                  moduleName = "confy-food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joanwilsonoliveira/Desktop/Challenges/NowForReal/git-flow/confy-food/confy-food/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "47FE9307-178C-4944-AE66-3DD07E5FA771 - a2357943da7d034a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "confy_food.RecentRecipeCell.__deallocating_deinit"
+                  moduleName = "confy-food"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joanwilsonoliveira/Desktop/Challenges/NowForReal/git-flow/confy-food/confy-food/Controllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

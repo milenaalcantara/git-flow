@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85A8583A28542EC300217B9C /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A8583828542EC300217B9C /* Database.xcdatamodeld */; };
 		85CD6A6E284F900E00929796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CD6A6D284F900E00929796 /* Main.storyboard */; };
 		F36474C228537C5600E8AD99 /* NotFound.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36474C128537C5600E8AD99 /* NotFound.storyboard */; };
 		F36474C628537E1700E8AD99 /* NotFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36474C528537E1700E8AD99 /* NotFoundViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85A8583928542EC300217B9C /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 		85CD6A6D284F900E00929796 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F36474C128537C5600E8AD99 /* NotFound.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotFound.storyboard; sourceTree = "<group>"; };
 		F36474C528537E1700E8AD99 /* NotFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				F389BC5C284A47BB00A8026B /* SceneDelegate.swift */,
 				F389BC63284A47BB00A8026B /* Assets.xcassets */,
 				F389BC68284A47BB00A8026B /* Info.plist */,
+				85A8583828542EC300217B9C /* Database.xcdatamodeld */,
 			);
 			path = "confy-food";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 			files = (
 				F389BC5F284A47BB00A8026B /* ViewController.swift in Sources */,
 				F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */,
+				85A8583A28542EC300217B9C /* Database.xcdatamodeld in Sources */,
 				F389BC5D284A47BB00A8026B /* SceneDelegate.swift in Sources */,
 				F36474C628537E1700E8AD99 /* NotFoundViewController.swift in Sources */,
 			);
@@ -483,7 +487,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2P65JA735T;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "confy-food/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Comfy Food";
@@ -512,7 +516,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2P65JA735T;
+				DEVELOPMENT_TEAM = F2MBMJ3PK6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "confy-food/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Comfy Food";
@@ -650,6 +654,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85A8583828542EC300217B9C /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85A8583928542EC300217B9C /* Database.xcdatamodel */,
+			);
+			currentVersion = 85A8583928542EC300217B9C /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F389BC4F284A47BB00A8026B /* Project object */;
 }
