@@ -8,10 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-<<<<<<< HEAD
-    override func viewDidLoad() {
-        super.viewDidLoad()
-=======
     @IBOutlet weak var recentRecipeList: UICollectionView!
     @IBOutlet weak var categoriesCollectionView: UICollectionView!
     
@@ -71,7 +67,6 @@ extension ViewController: UICollectionViewDataSource {
         )
 
         return cell
->>>>>>> a2434a0 (create main view and populate the collection view datasource)
     }
 }
 

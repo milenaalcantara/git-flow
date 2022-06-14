@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ok9-VN-qpu">
-=======
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mn7-Bs-bR0">
->>>>>>> a2434a0 (create main view and populate the collection view datasource)
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -14,21 +10,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-<<<<<<< HEAD
-        <!--View Controller-->
-        <scene sceneID="M7C-aH-OQt">
-=======
         <!--Comfy Food-->
         <scene sceneID="s0d-6b-0kx">
->>>>>>> a2434a0 (create main view and populate the collection view datasource)
             <objects>
-                <viewController id="Ok9-VN-qpu" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1dP-qs-omq">
+                <viewController id="Y6W-OH-hqX" customClass="ViewController" customModule="confy_food" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
-                        <viewLayoutGuide key="safeArea" id="9Dt-8m-acm"/>
-=======
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-image" translatesAutoresizingMaskIntoConstraints="NO" id="RFi-XP-cWS">
                                 <rect key="frame" x="0.0" y="140" width="414" height="756"/>
@@ -213,7 +201,6 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
->>>>>>> a2434a0 (create main view and populate the collection view datasource)
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="RFi-XP-cWS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Cuf-SY-cjd"/>
@@ -231,11 +218,8 @@
                         <outlet property="recentRecipeList" destination="LmV-Qd-nBE" id="vQG-76-HVb"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E1k-MB-9kD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
-            <point key="canvasLocation" x="-80" y="152"/>
-=======
             <point key="canvasLocation" x="928.98550724637687" y="105.80357142857143"/>
         </scene>
         <!--Navigation Controller-->
@@ -255,7 +239,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIt-pX-3Oy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-16" y="90"/>
->>>>>>> a2434a0 (create main view and populate the collection view datasource)
         </scene>
     </scenes>
     <resources>
