@@ -31,10 +31,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.backgroundColor = UIColor(named: "splash-background")
-        navBarAppearance.titlePositionAdjustment = .init(
-            horizontal: -CGFloat.greatestFiniteMagnitude,
-            vertical: 0
-        )
         navigationItem.standardAppearance = navBarAppearance
         navigationItem.compactAppearance = navBarAppearance
         navigationItem.scrollEdgeAppearance = navBarAppearance
