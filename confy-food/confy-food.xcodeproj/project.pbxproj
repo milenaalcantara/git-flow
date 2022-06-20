@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		85A8583A28542EC300217B9C /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A8583828542EC300217B9C /* Database.xcdatamodeld */; };
 		85CD6A6E284F900E00929796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CD6A6D284F900E00929796 /* Main.storyboard */; };
+		85D685AD285A262D008D7B1F /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D685AC285A262D008D7B1F /* Categories.storyboard */; };
+		85D685AF285A26FA008D7B1F /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D685AE285A26FA008D7B1F /* CategoriesViewController.swift */; };
 		F36474C228537C5600E8AD99 /* NotFound.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36474C128537C5600E8AD99 /* NotFound.storyboard */; };
 		F36474C628537E1700E8AD99 /* NotFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36474C528537E1700E8AD99 /* NotFoundViewController.swift */; };
 		F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5A284A47BB00A8026B /* AppDelegate.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		85A8583928542EC300217B9C /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
 		85CD6A6D284F900E00929796 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		85D685AC285A262D008D7B1F /* Categories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
+		85D685AE285A26FA008D7B1F /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		F36474C128537C5600E8AD99 /* NotFound.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotFound.storyboard; sourceTree = "<group>"; };
 		F36474C528537E1700E8AD99 /* NotFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundViewController.swift; sourceTree = "<group>"; };
 		F389BC57284A47BB00A8026B /* confy-food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "confy-food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +92,7 @@
 				F389BC65284A47BB00A8026B /* LaunchScreen.storyboard */,
 				85CD6A6D284F900E00929796 /* Main.storyboard */,
 				F36474C128537C5600E8AD99 /* NotFound.storyboard */,
+				85D685AC285A262D008D7B1F /* Categories.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			children = (
 				F389BC5E284A47BB00A8026B /* ViewController.swift */,
 				F36474C528537E1700E8AD99 /* NotFoundViewController.swift */,
+				85D685AE285A26FA008D7B1F /* CategoriesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D685AD285A262D008D7B1F /* Categories.storyboard in Resources */,
 				F36474C228537C5600E8AD99 /* NotFound.storyboard in Resources */,
 				85CD6A6E284F900E00929796 /* Main.storyboard in Resources */,
 				F389BC67284A47BB00A8026B /* LaunchScreen.storyboard in Resources */,
@@ -308,6 +315,7 @@
 			files = (
 				F389BC5F284A47BB00A8026B /* ViewController.swift in Sources */,
 				F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */,
+				85D685AF285A26FA008D7B1F /* CategoriesViewController.swift in Sources */,
 				85A8583A28542EC300217B9C /* Database.xcdatamodeld in Sources */,
 				F389BC5D284A47BB00A8026B /* SceneDelegate.swift in Sources */,
 				F36474C628537E1700E8AD99 /* NotFoundViewController.swift in Sources */,
