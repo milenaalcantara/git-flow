@@ -24,42 +24,57 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xR1-1u-omn">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vm8-g9-GPG">
-                                    <size key="itemSize" width="350" height="300"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="50" minimumInteritemSpacing="50" id="vm8-g9-GPG">
+                                    <size key="itemSize" width="350" height="250"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                                    <inset key="sectionInset" minX="0.0" minY="30" maxX="0.0" maxY="30"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="categoryCell" id="go8-Ca-8I1">
-                                        <rect key="frame" x="32" y="20" width="350" height="300"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="categoryCellDetail" id="go8-Ca-8I1" customClass="CategoryCellDetail" customModule="confy_food" customModuleProvider="target">
+                                        <rect key="frame" x="32" y="30" width="350" height="250"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bEn-AG-XN7">
-                                            <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" id="bEn-AG-XN7">
+                                            <rect key="frame" x="0.0" y="0.0" width="350" height="250"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BiQ-Lh-cen">
-                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BiQ-Lh-cen">
+                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="250"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xd9-Wo-5Fa">
-                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuj-77-Fvo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="250"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xd9-Wo-5Fa">
+                                                    <rect key="frame" x="0.0" y="0.0" width="350" height="250"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="36"/>
+                                                    <color key="textColor" systemColor="systemBackgroundColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="kuj-77-Fvo" secondAttribute="trailing" id="7XA-29-39p"/>
                                                 <constraint firstAttribute="trailing" secondItem="BiQ-Lh-cen" secondAttribute="trailing" id="7aF-AE-ejS"/>
                                                 <constraint firstItem="xd9-Wo-5Fa" firstAttribute="top" secondItem="bEn-AG-XN7" secondAttribute="top" id="89Y-Ad-mx6"/>
+                                                <constraint firstItem="kuj-77-Fvo" firstAttribute="top" secondItem="bEn-AG-XN7" secondAttribute="top" id="EoO-zG-WRT"/>
                                                 <constraint firstAttribute="bottom" secondItem="BiQ-Lh-cen" secondAttribute="bottom" id="RTs-ci-uuh"/>
+                                                <constraint firstAttribute="bottom" secondItem="kuj-77-Fvo" secondAttribute="bottom" id="Rh3-W8-grr"/>
                                                 <constraint firstAttribute="trailing" secondItem="xd9-Wo-5Fa" secondAttribute="trailing" id="Z53-RQ-xdl"/>
                                                 <constraint firstAttribute="bottom" secondItem="xd9-Wo-5Fa" secondAttribute="bottom" id="ZA5-5P-Geo"/>
                                                 <constraint firstItem="BiQ-Lh-cen" firstAttribute="top" secondItem="bEn-AG-XN7" secondAttribute="top" id="eNk-ca-tP5"/>
+                                                <constraint firstItem="kuj-77-Fvo" firstAttribute="leading" secondItem="bEn-AG-XN7" secondAttribute="leading" id="hzm-N5-WgM"/>
                                                 <constraint firstItem="xd9-Wo-5Fa" firstAttribute="leading" secondItem="bEn-AG-XN7" secondAttribute="leading" id="jdM-Y0-pzk"/>
                                                 <constraint firstItem="BiQ-Lh-cen" firstAttribute="leading" secondItem="bEn-AG-XN7" secondAttribute="leading" id="t9y-EK-AEE"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="blackOpacity" destination="kuj-77-Fvo" id="mgj-oH-bIh"/>
+                                            <outlet property="name" destination="xd9-Wo-5Fa" id="1qo-TN-1M3"/>
+                                            <outlet property="nameImage" destination="BiQ-Lh-cen" id="XHL-ss-FYP"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
