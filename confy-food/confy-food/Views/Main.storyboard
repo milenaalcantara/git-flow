@@ -41,6 +41,9 @@
                                                         <rect key="frame" x="327.5" y="8" width="86.5" height="31"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Ver todos"/>
+                                                        <connections>
+                                                            <segue destination="6TE-z3-6B5" kind="show" id="J5L-Yj-H7Y"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="19" bottom="8" trailing="0.0"/>
@@ -224,6 +227,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="105.80357142857143"/>
+        </scene>
+        <!--AllRecipes-->
+        <scene sceneID="3xa-y8-RIs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AllRecipes" id="6TE-z3-6B5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="z3a-ZR-Jcz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAg-xF-838" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="-134"/>
         </scene>
         <!--Categories-->
         <scene sceneID="wKh-iJ-8Mu">

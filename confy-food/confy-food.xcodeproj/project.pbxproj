@@ -21,6 +21,8 @@
 		F37C37282861EC9E00C9FEEB /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C37272861EC9E00C9FEEB /* CategoriesCell.swift */; };
 		F37C372B2861F1E100C9FEEB /* CategoriesDetailCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C372A2861F1E100C9FEEB /* CategoriesDetailCollection.swift */; };
 		F37C372D2861F25300C9FEEB /* CategoryCellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C372C2861F25300C9FEEB /* CategoryCellDetail.swift */; };
+		F37C372F2861FA3400C9FEEB /* AllRecipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37C372E2861FA3400C9FEEB /* AllRecipes.storyboard */; };
+		F37C37342862000800C9FEEB /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37C37332862000800C9FEEB /* RecipesViewController.swift */; };
 		F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5A284A47BB00A8026B /* AppDelegate.swift */; };
 		F389BC5D284A47BB00A8026B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5C284A47BB00A8026B /* SceneDelegate.swift */; };
 		F389BC5F284A47BB00A8026B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC5E284A47BB00A8026B /* MainViewController.swift */; };
@@ -63,6 +65,8 @@
 		F37C37272861EC9E00C9FEEB /* CategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		F37C372A2861F1E100C9FEEB /* CategoriesDetailCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesDetailCollection.swift; sourceTree = "<group>"; };
 		F37C372C2861F25300C9FEEB /* CategoryCellDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellDetail.swift; sourceTree = "<group>"; };
+		F37C372E2861FA3400C9FEEB /* AllRecipes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllRecipes.storyboard; sourceTree = "<group>"; };
+		F37C37332862000800C9FEEB /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		F389BC57284A47BB00A8026B /* confy-food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "confy-food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389BC5A284A47BB00A8026B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F389BC5C284A47BB00A8026B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				85CD6A6D284F900E00929796 /* Main.storyboard */,
 				F36474C128537C5600E8AD99 /* NotFound.storyboard */,
 				85D685AC285A262D008D7B1F /* Categories.storyboard */,
+				F37C372E2861FA3400C9FEEB /* AllRecipes.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 		F36474C028536DE800E8AD99 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F37C37302861FFBA00C9FEEB /* RecipesViewController */,
 				F37C37292861EE8000C9FEEB /* CategoriesViewController */,
 				F37C37202861EB9600C9FEEB /* MainViewController */,
 				F36474C528537E1700E8AD99 /* NotFoundViewController.swift */,
@@ -152,6 +158,14 @@
 				F37C372C2861F25300C9FEEB /* CategoryCellDetail.swift */,
 			);
 			path = CategoriesViewController;
+			sourceTree = "<group>";
+		};
+		F37C37302861FFBA00C9FEEB /* RecipesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F37C37332862000800C9FEEB /* RecipesViewController.swift */,
+			);
+			path = RecipesViewController;
 			sourceTree = "<group>";
 		};
 		F389BC4E284A47BB00A8026B = {
@@ -313,6 +327,7 @@
 			files = (
 				85D685AD285A262D008D7B1F /* Categories.storyboard in Resources */,
 				F36474C228537C5600E8AD99 /* NotFound.storyboard in Resources */,
+				F37C372F2861FA3400C9FEEB /* AllRecipes.storyboard in Resources */,
 				85CD6A6E284F900E00929796 /* Main.storyboard in Resources */,
 				F389BC67284A47BB00A8026B /* LaunchScreen.storyboard in Resources */,
 				F389BC64284A47BB00A8026B /* Assets.xcassets in Resources */,
@@ -374,6 +389,7 @@
 				F36474C628537E1700E8AD99 /* NotFoundViewController.swift in Sources */,
 				F37C37282861EC9E00C9FEEB /* CategoriesCell.swift in Sources */,
 				F37C371D2861E7D000C9FEEB /* Category.swift in Sources */,
+				F37C37342862000800C9FEEB /* RecipesViewController.swift in Sources */,
 				F37C371F2861E80600C9FEEB /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
