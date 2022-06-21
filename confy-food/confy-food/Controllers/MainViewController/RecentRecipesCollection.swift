@@ -25,7 +25,7 @@ class RecentRecipesCollection: NSObject, UICollectionViewDataSource {
         
         let cell = collectionView
             .dequeueReusableCell(
-                withReuseIdentifier: "recipeCell",
+                withReuseIdentifier: "recentRecipeCell",
                 for: indexPath
             ) as! RecentRecipeCell // swiftlint:disable:this force_cast
 

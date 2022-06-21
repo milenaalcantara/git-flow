@@ -18,6 +18,7 @@ class Category: NSObject {
 }
 
 extension Category {
+
     static let categoriesDataSource = CategoriesCollection(
         categories: [
             Category(name: "Favoritos", nameImage: "favoritos"),

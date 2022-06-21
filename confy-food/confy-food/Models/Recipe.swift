@@ -17,8 +17,21 @@ class Recipe: NSObject {
 }
 
 extension Recipe {
-    static let recipesDataSource = RecentRecipesCollection(
+    static let recentRecipesDataSource = RecentRecipesCollection(
         recentRecipes: [
+            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
+            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
+            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
+            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate")
+        ]
+    )
+        
+    static let recipesDataSource = RecipesCollection(
+        recipes: [
             Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
             Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
             Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),

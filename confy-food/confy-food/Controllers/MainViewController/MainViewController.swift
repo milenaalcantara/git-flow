@@ -18,7 +18,7 @@ class MainViewController: UIViewController {
         navigationItem.standardAppearance = navBarAppearance
         navigationItem.compactAppearance = navBarAppearance
         navigationItem.scrollEdgeAppearance = navBarAppearance
-        recentRecipeList.dataSource = Recipe.recipesDataSource
+        recentRecipeList.dataSource = Recipe.recentRecipesDataSource
         recentRecipeList.backgroundColor = .clear
         categoriesCollectionView.dataSource = Category.categoriesDataSource
         categoriesCollectionView.backgroundColor = .clear

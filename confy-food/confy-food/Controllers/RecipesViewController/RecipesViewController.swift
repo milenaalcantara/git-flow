@@ -18,14 +18,13 @@ class RecipesViewController: UIViewController {
 
         // MARK: - Navbar Appearence
         recipesCollection.backgroundColor = .clear
+        recipesCollection.dataSource = Recipe.recipesDataSource
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.backgroundColor = UIColor(named: "splash-background")
         navigationItem.standardAppearance = navBarAppearance
         navigationItem.compactAppearance = navBarAppearance
         navigationItem.scrollEdgeAppearance = navBarAppearance
-//        navigationItem.backBarButtonItem?.tintColor = .gray  // descobrir como mudar a cor depois
-        
-        
+
         // MARK: - SearchBar
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
@@ -42,4 +41,30 @@ extension RecipesViewController: UISearchResultsUpdating {
   func updateSearchResults(for searchController: UISearchController) {
     // TODO
   }
+}
+
+class RecipesCollection: NSObject, UICollectionViewDataSource {
+    var recipes: [Recipe]
+    
+    init(recipes: [Recipe]) {
+        self.recipes = recipes
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "recipeCell", for: indexPath) as! RecipeCell // swiftlint:disable:this force_cast
+        cell.name.text = recipes[indexPath.item].name
+        cell.imageName.image = UIImage(named: recipes[indexPath.item].nameImage)
+        
+        return cell
+    }
+}
+
+
+class RecipeCell: UICollectionViewCell {
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var imageName: UIImageView!
 }
