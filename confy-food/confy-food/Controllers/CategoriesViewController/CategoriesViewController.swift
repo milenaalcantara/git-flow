@@ -40,6 +40,5 @@ class CategoriesViewController: UIViewController {
 // MARK: - SearchBar Results
 extension CategoriesViewController: UISearchResultsUpdating {
   func updateSearchResults(for searchController: UISearchController) {
-    // TODO
   }
 }

@@ -6,6 +6,7 @@
 // swiftlint:disable trailing_whitespace
 
 import Foundation
+import UIKit
 
 class Category: NSObject {
     var name: String

@@ -24,6 +24,14 @@ class RecipesViewController: UIViewController {
         navigationItem.standardAppearance = navBarAppearance
         navigationItem.compactAppearance = navBarAppearance
         navigationItem.scrollEdgeAppearance = navBarAppearance
+        
+        // MARK: - Navbar Items
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            image: UIImage(systemName: "plus.circle.fill"),
+            style: .plain,
+            target: self,
+            action: #selector(self.addTapped)
+        )
 
         // MARK: - SearchBar
         searchController.searchResultsUpdater = self
@@ -33,13 +41,27 @@ class RecipesViewController: UIViewController {
         definesPresentationContext = true
         
     }
+    
+    @objc func addTapped() {
+        let addRecipeStoryboard = UIStoryboard(name: "AddRecipeView", bundle: .main)
+        guard let addRecipeViewController = addRecipeStoryboard.instantiateViewController(
+            withIdentifier: "addrecipe"
+        ) as? AddRecipeViewController else {
+            return
+        }
+
+        addRecipeViewController.title = "Adicionar receita"
+        
+        let nav = UINavigationController(rootViewController: addRecipeViewController)
+        self.present(nav, animated: true)
+        
+    }
 
 }
 
 // MARK: - SearchBar Results
 extension RecipesViewController: UISearchResultsUpdating {
   func updateSearchResults(for searchController: UISearchController) {
-    // TODO
   }
 }
 
@@ -54,15 +76,22 @@ class RecipesCollection: NSObject, UICollectionViewDataSource {
         return 3
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "recipeCell", for: indexPath) as! RecipeCell // swiftlint:disable:this force_cast
+    func collectionView(
+        _ collectionView: UICollectionView,
+        cellForItemAt indexPath: IndexPath
+    ) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(
+            withReuseIdentifier: "recipeCell",
+            for: indexPath
+        ) as! RecipeCell // swiftlint:disable:this force_cast
+        
         cell.name.text = recipes[indexPath.item].name
         cell.imageName.image = UIImage(named: recipes[indexPath.item].nameImage)
         
         return cell
     }
 }
-
 
 class RecipeCell: UICollectionViewCell {
     @IBOutlet weak var name: UILabel!

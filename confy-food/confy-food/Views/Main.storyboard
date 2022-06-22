@@ -104,14 +104,6 @@
                                                             <outlet property="labelRecipe" destination="qOV-Rv-tOx" id="8hW-u9-GVr"/>
                                                         </connections>
                                                     </collectionViewCell>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zQn-Rt-r8K">
-                                                        <rect key="frame" x="290" y="0.5" width="250" height="181"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
-                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="n6A-W5-tab">
-                                                            <rect key="frame" x="0.0" y="0.0" width="250" height="181"/>
-                                                            <autoresizingMask key="autoresizingMask"/>
-                                                        </collectionViewCellContentView>
-                                                    </collectionViewCell>
                                                 </cells>
                                             </collectionView>
                                         </subviews>
