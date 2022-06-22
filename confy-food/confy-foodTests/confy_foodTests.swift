@@ -3,7 +3,7 @@
 //  confy-foodTests
 //
 //  Created by Milena Lima de Alcântara on 03/06/22.
-//  swiftlin:disable trailing_whitespace
+//  swiftlint:disable trailing_whitespace
 
 import XCTest
 @testable import confy_food
