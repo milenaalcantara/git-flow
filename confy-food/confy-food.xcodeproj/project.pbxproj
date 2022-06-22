@@ -33,6 +33,8 @@
 		F389BC72284A47BB00A8026B /* confy_foodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC71284A47BB00A8026B /* confy_foodTests.swift */; };
 		F389BC7C284A47BB00A8026B /* confy_foodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC7B284A47BB00A8026B /* confy_foodUITests.swift */; };
 		F389BC7E284A47BB00A8026B /* confy_foodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC7D284A47BB00A8026B /* confy_foodUITestsLaunchTests.swift */; };
+		F3901E9928634B8600B9972B /* RecipesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3901E9828634B8600B9972B /* RecipesCollection.swift */; };
+		F3901E9B28634BA900B9972B /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3901E9A28634BA900B9972B /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		F389BC77284A47BB00A8026B /* confy-foodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "confy-foodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389BC7B284A47BB00A8026B /* confy_foodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confy_foodUITests.swift; sourceTree = "<group>"; };
 		F389BC7D284A47BB00A8026B /* confy_foodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confy_foodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3901E9828634B8600B9972B /* RecipesCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCollection.swift; sourceTree = "<group>"; };
+		F3901E9A28634BA900B9972B /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				F37C37332862000800C9FEEB /* RecipesViewController.swift */,
+				F3901E9828634B8600B9972B /* RecipesCollection.swift */,
+				F3901E9A28634BA900B9972B /* RecipeCell.swift */,
 			);
 			path = RecipesViewController;
 			sourceTree = "<group>";
@@ -394,9 +400,11 @@
 				F37C372B2861F1E100C9FEEB /* CategoriesDetailCollection.swift in Sources */,
 				F389BC5F284A47BB00A8026B /* MainViewController.swift in Sources */,
 				F37C37222861EBD300C9FEEB /* RecentRecipesCollection.swift in Sources */,
+				F3901E9B28634BA900B9972B /* RecipeCell.swift in Sources */,
 				F37C37262861EC7100C9FEEB /* CategoriesCollection.swift in Sources */,
 				F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */,
 				85D685AF285A26FA008D7B1F /* CategoriesViewController.swift in Sources */,
+				F3901E9928634B8600B9972B /* RecipesCollection.swift in Sources */,
 				F37C372D2861F25300C9FEEB /* CategoryCellDetail.swift in Sources */,
 				85A8583A28542EC300217B9C /* Database.xcdatamodeld in Sources */,
 				8520CB3C28624FC100EF3F27 /* AddRecipeViewController.swift in Sources */,
