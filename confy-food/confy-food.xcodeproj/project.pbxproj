@@ -33,7 +33,6 @@
 		F389BC72284A47BB00A8026B /* confy_foodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC71284A47BB00A8026B /* confy_foodTests.swift */; };
 		F389BC7C284A47BB00A8026B /* confy_foodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC7B284A47BB00A8026B /* confy_foodUITests.swift */; };
 		F389BC7E284A47BB00A8026B /* confy_foodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389BC7D284A47BB00A8026B /* confy_foodUITestsLaunchTests.swift */; };
-		F3901E9928634B8600B9972B /* RecipesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3901E9828634B8600B9972B /* RecipesCollection.swift */; };
 		F3901E9B28634BA900B9972B /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3901E9A28634BA900B9972B /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,7 +84,6 @@
 		F389BC77284A47BB00A8026B /* confy-foodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "confy-foodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F389BC7B284A47BB00A8026B /* confy_foodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confy_foodUITests.swift; sourceTree = "<group>"; };
 		F389BC7D284A47BB00A8026B /* confy_foodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confy_foodUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F3901E9828634B8600B9972B /* RecipesCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesCollection.swift; sourceTree = "<group>"; };
 		F3901E9A28634BA900B9972B /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				F37C37332862000800C9FEEB /* RecipesViewController.swift */,
-				F3901E9828634B8600B9972B /* RecipesCollection.swift */,
 				F3901E9A28634BA900B9972B /* RecipeCell.swift */,
 			);
 			path = RecipesViewController;
@@ -404,7 +401,6 @@
 				F37C37262861EC7100C9FEEB /* CategoriesCollection.swift in Sources */,
 				F389BC5B284A47BB00A8026B /* AppDelegate.swift in Sources */,
 				85D685AF285A26FA008D7B1F /* CategoriesViewController.swift in Sources */,
-				F3901E9928634B8600B9972B /* RecipesCollection.swift in Sources */,
 				F37C372D2861F25300C9FEEB /* CategoryCellDetail.swift in Sources */,
 				85A8583A28542EC300217B9C /* Database.xcdatamodeld in Sources */,
 				8520CB3C28624FC100EF3F27 /* AddRecipeViewController.swift in Sources */,
@@ -583,10 +579,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				DEVELOPMENT_TEAM = 2P65JA735T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "confy-food/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Comfy Food";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confy Food";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -597,7 +593,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.milenaalcantara.git-flow";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.milenaalcantara.confy-food";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -612,10 +608,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F2MBMJ3PK6;
+				DEVELOPMENT_TEAM = 2P65JA735T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "confy-food/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Comfy Food";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confy Food";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -626,7 +622,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.github.milenaalcantara.git-flow";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.milenaalcantara.confy-food";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
