@@ -22,12 +22,9 @@ class RecipesViewController: UIViewController {
 
         recipesCollection.delegate = self
         recipesCollection.dataSource = self
+        recipesCollection.backgroundColor = .clear
         
         // MARK: - Navbar Appearence
-        recipesCollection.backgroundColor = .clear
-//        recipesCollection.dataSource = self
-//        recipesCollection.dataSource = Recipe.recipesDataSource
-        
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.backgroundColor = UIColor(named: "splash-background")
         navigationItem.standardAppearance = navBarAppearance
@@ -60,7 +57,7 @@ class RecipesViewController: UIViewController {
         definesPresentationContext = true
     }
     
-    func fillData() {
+    private func fillData() {
         for recipe in Recipe.recipesDataSource {
             recipesList.append(recipe)
         }

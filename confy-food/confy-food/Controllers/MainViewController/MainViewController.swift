@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
         recentRecipeList.dataSource = Recipe.recentRecipesDataSource
         recentRecipeList.backgroundColor = .clear
         categoriesCollectionView.dataSource = Category.categoriesDataSource
+        
         categoriesCollectionView.backgroundColor = .clear
         navigationItem.backButtonTitle = ""
     }
