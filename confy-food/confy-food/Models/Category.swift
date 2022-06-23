@@ -22,14 +22,16 @@ extension Category {
     static let categoriesDataSource = CategoriesCollection(
         categories: [
             Category(name: "Favoritos", nameImage: "favoritos"),
-            Category(name: "Frutos do Mar", nameImage: "frutos-do-mar")
+            Category(name: "Frutos do Mar", nameImage: "frutos-do-mar"),
+            Category(name: "Frutos do Mar 2", nameImage: "frutos-do-mar"),
+            Category(name: "Frutos do Mar 3", nameImage: "frutos-do-mar")
         ]
     )
     
-    static let categoriesDetailDataSource = CategoriesDetailCollection(
-        categories: [
-            Category(name: "Favoritos", nameImage: "favoritos"),
-            Category(name: "Frutos do Mar", nameImage: "frutos-do-mar")
-        ]
-    )
+    static let categoriesDetailDataSource = [
+        Category(name: "Favoritos", nameImage: "favoritos"),
+        Category(name: "Frutos do Mar", nameImage: "frutos-do-mar"),
+        Category(name: "Frutos do Mar 2", nameImage: "frutos-do-mar"),
+        Category(name: "Frutos do Mar 3", nameImage: "frutos-do-mar")
+    ]
 }
