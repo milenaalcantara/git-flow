@@ -29,8 +29,7 @@ extension Recipe {
             Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate")
         ]
     )
-    static let recipesDataSource = RecipesCollection(
-        recipes: [
+    static let recipesDataSource = [
             Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
             Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
             Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
@@ -40,5 +39,14 @@ extension Recipe {
             Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
             Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate")
         ]
-    )
+//        searchedRecipes: [
+//            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+//            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
+//            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+//            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
+//            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+//            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate"),
+//            Recipe(name: "Bolo de cenoura", nameImage: "bolo-cenoura"),
+//            Recipe(name: "Bolo de chocolate", nameImage: "bolo-chocolate")
+//        ]
 }
